@@ -1,0 +1,120 @@
+.denglu{
+    width: 870px;
+    margin: 0 auto;
+}
+/*����*/
+h2{
+    margin-top: 40px;
+    height: 90px;
+}
+/*��¼����*/
+.denglu_1{
+    width: 875px;
+    height: 390px;
+    display: flex;
+    justify-content: space-between;
+}
+.jiemian{
+    margin-top: 50px;
+    width: 275px;
+}
+span{
+    font-size: 14px;
+}
+.jiemian span a i{
+    display: inline-block;
+    width: 11px;
+    height: 15px;
+    background-image: url(../imges/shouji.png);
+}
+.jiemian  a{
+    float: right;
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+}
+.zhanghao{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    position: relative;
+}
+.zhanghao i{
+    display: inline-block;
+    width: 27px;
+    height: 27px;
+    background-image: url('../xiangmutu/zhanghao.png');
+    position: absolute;
+    top: 5px;
+    left: 7px;
+}
+input{
+    outline: none;
+}
+.zhanghao input{
+    height: 35px;
+    width: 235px;
+    padding-left: 35px;
+}
+.mima input{
+    height: 35px;
+    width: 235px;
+    padding-left: 35px;
+}
+.mima{
+    position: relative;
+}
+.mima i{
+    display: inline-block;
+    width: 27px;
+    height: 27px;
+    background-image: url('../xiangmutu/mima.png');
+    position: absolute;
+    top: 5px;
+    left: 7px;
+}
+.denglu_1 .jiemian input:focus{
+    border-style:solid;
+    border-color: #e53236;
+}
+.zidong{
+    font-size: 12px;
+    margin: 12px 0;
+}
+button{
+    width: 275px;
+    height: 35px;
+    outline: none;
+    border: 0;
+    background-color: #e53236;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.jiemian p a{
+    float: none;
+    font-size: 16px;
+}
+.jiemian .hong{
+    color: #e53236;
+}
+a:hover{
+    text-decoration: underline;
+}
+footer{
+    height: 475px;
+}
+footer p{
+    color: #cccccc;
+    font-size: 14px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+
+.hide{
+      display: none;
+}
+#error{
+    color: red;
+
+}

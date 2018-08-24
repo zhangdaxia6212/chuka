@@ -1,0 +1,423 @@
+/*导航部分*/
+header{
+    height: 80px;
+    border: 1px solid  #e5e5e5;
+
+    overflow: hidden;
+
+
+}
+ul{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+
+}
+ul>li{
+    line-height: 80px;
+    color: #343434;
+
+}
+
+.bazhong{
+    border:0;
+    outline: none ;
+}
+ul>li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #343434;
+    width: 80px;
+    text-align: center;
+}
+ul>li:first-child{
+    margin-left: 300px;
+    margin-right: 20px;
+}
+ul>li:nth-child(7){
+    margin-left: 300px;
+}
+ul>li:nth-child(3):active{
+    background-color: red;
+}
+ul>li:nth-child(4):active{
+    background-color: red;
+}
+ul>li:nth-child(5):active{
+    background-color: red;
+}
+ul>li:nth-child(6):active{
+    background-color: red;
+}
+ul>li:nth-child(7) input{
+    border-radius:20px 20px;
+    height: 40px;
+    width: 228px;
+    margin-right: 20px;
+    outline: none;
+}
+ul>li:nth-child(7) img{
+    position: absolute;
+    top: 23px;
+    right: 160px;
+}
+.reying{
+    height: 60px;
+    background-color: #48474b;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.reying a{
+    display: inline-block;
+    color: grey;
+    text-decoration: none;
+    width: 80px;
+    line-height: 60px;
+    padding-right: 80px;
+}
+.reying a:active{
+    color: red;
+}
+/*三个字体*/
+nav{
+    height: 60px;
+    background-color: #48474b;
+    text-align: center;
+    margin-bottom: 40px;
+}
+nav a{
+    display: inline-block;
+    line-height: 60px;
+    color: #e5e5e5;
+    text-decoration: none;
+    width: 75px;
+   margin-right: 75px;
+}
+nav a:hover{
+    background-color: red;
+}
+/*电影所有内容宽度*/
+article{
+    width: 1122px;
+    margin: 0px auto;
+}
+section{
+    height: 200px;
+    border: 1px solid #e5e5e5;
+}
+/*类型 年代 区域*/
+.leixing a{
+margin-right: 25px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #020202;
+
+}
+.leixing{
+
+    margin-top: 15px;
+    margin-bottom: 10px;
+
+}
+.leixing1 a{
+    margin-right: 25px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #020202;
+}
+.wuxia{
+    margin-left: 48px;
+}
+.leixing a:active{
+    color: white;
+     background-color: red;
+    width: 40px;
+    height: 40px;
+    border: 1px solid red;
+    border-radius: 20px;
+ }
+.leixing1 a:active{
+    color: white;
+    background-color: red;
+    width: 40px;
+    height: 40px;
+    border: 1px solid red;
+    border-radius: 20px;
+}
+.leixing1{
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 15px;
+}
+.leixing2 a{
+    margin-right: 25px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #020202;
+}
+.leixing2{
+    margin-top: 10px;
+}
+.leixing2 a:active{
+    color: white;
+    background-color: red;
+    width: 40px;
+    height: 40px;
+    border: 1px solid red;
+    border-radius: 20px;
+
+}
+
+.leixing3 a{
+    margin-right: 25px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #020202;
+}
+.leixing3 a:active{
+    color: white;
+    background-color: red;
+    width: 40px;
+    height: 40px;
+    border: 1px solid red;
+    border-radius: 20px;
+}
+.leixing3{
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 15px;
+    margin-top: 10px;
+}
+.wuxia1{
+    margin-left: 48px;
+}
+
+.leixing4 a{
+    margin-right: 25px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #020202;
+}
+.leixing4 a:active{
+    color: white;
+    background-color: red;
+    width: 40px;
+    height: 40px;
+    border: 1px solid red;
+    border-radius: 20px;
+}
+.leixing4{
+    padding-bottom: 15px;
+    margin-top: 10px;
+}
+.remen{
+    margin-top: 40px;
+}
+.remen>span>a:nth-child(1){
+    font-size: 14px;
+    color: #020202;
+    text-decoration: none;
+}
+
+.remen>span:nth-child(odd){
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border:1px solid;
+    border-radius: 50%;
+}
+.remen>span:nth-child(odd):active{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border:1px solid;
+    border-radius: 50%;
+    background-color: red;
+}
+.remen>span:nth-child(even){
+    display: inline-block;
+    margin-right: 40px;
+
+}
+/*电影部分*/
+.fantanfengbao{
+    display: flex;
+
+
+    justify-content: space-around;
+}
+.bofang{
+
+    margin-left: 609px;
+}
+.fantan{
+    width: 160px;
+    margin-top: 25px;
+}
+.fantan1{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.fantan2{
+    text-align: center;
+    color: #ffb402;
+    margin-bottom: 35px;
+}
+/*下一页*/
+aside{
+     margin-bottom: 95px;
+    text-align: center;
+}
+aside>span:nth-child(1){
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border: 1px  solid #e5e5e5;
+    line-height: 35px;
+    text-align: center;
+    margin-right: 10px;
+
+}
+aside>span:nth-child(2){
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    margin-right: 10px;
+    border: 1px  solid #e5e5e5;
+}
+aside>span:nth-child(3){
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    margin-right: 10px;
+    border: 1px  solid #e5e5e5;
+}
+aside>span:nth-child(4){
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    margin-right: 10px;
+    border: 1px  solid #e5e5e5;
+}
+aside>span:nth-child(5){
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    margin-right: 10px;
+    border: 1px  solid #e5e5e5;
+}
+aside>span:nth-child(6){
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    margin-right: 10px;
+    border: 1px  solid #e5e5e5;
+}
+aside>span:nth-child(7){
+    display: inline-block;
+    width: 80px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    margin-right: 10px;
+    border: 1px  solid #e5e5e5;
+}
+
+aside>span:nth-child(8){
+    display: inline-block;
+    width: 80px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    margin-right: 10px;
+    border: 1px  solid #e5e5e5;
+}
+aside>span a{
+    text-decoration: none;
+    color: #020202;
+}
+/*点击时候字体变色和背景变色*/
+aside>span:nth-child(1):active a{
+    color: white;
+}
+aside>span:nth-child(1):active {
+    background-color: red;
+}
+aside>span:nth-child(2):active a{
+    color: white;
+}
+aside>span:nth-child(2):active {
+    background-color: red;
+}
+aside>span:nth-child(3):active a{
+    color: white;
+}
+aside>span:nth-child(3):active {
+    background-color: red;
+}
+aside>span:nth-child(4):active a{
+    color: white;
+}
+aside>span:nth-child(4):active {
+    background-color: red;
+}
+aside>span:nth-child(5):active a{
+    color: white;
+}
+aside>span:nth-child(5):active {
+    background-color: red;
+}
+aside>span:nth-child(7):active a{
+    color: white;
+}
+aside>span:nth-child(7):active {
+    background-color: red;
+}
+aside>span:nth-child(8):active a{
+    color: white;
+}
+aside>span:nth-child(8):active {
+    background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*底部*/
+footer{
+    height: 150px;
+    width: auto;
+    background-color: #020202;
+}
+footer>p:nth-child(1){
+    color: grey;
+    text-align: center;
+    padding-top: 60px;
+}
+footer>p:nth-child(2){
+    color: grey;
+    text-align: center;
+}
+
+
+.fantanfengbao img{
+    width: 161px;
+    height: 219px;
+}

@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/index.css" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
+
+        a,
+        img {
+            border: 0;
+        }
+
+        #cont {
+            position: relative;
+            width: auto;
+            height: 440px;
+            margin: 40px auto 0 auto
+        }
+
+        /* 图片宽高 */
+
+        .zhengzhang img {
+            width: 1518px;
+            height: 440px;
+        }
+
+        .imm a {
+            position: absolute
+        }
+
+        .btn ul {
+            position: absolute;
+            /* z-index: 10000; */
+            bottom: 40px;
+            right: 20px;
+        }
+
+        .btn ul li {
+            width: 20px;
+            height: 20px;
+            background-color: #cccccc;
+            border-radius: 50%;
+            list-style: none;
+            float: left;
+            margin: 0 5px;
+            text-align: center;
+            color: white;
+            line-height: 20px;
+            cursor: pointer;
+        }
+
+        .btn ul li.on {
+            background-color: aquamarine;
+        }
+
+        .diin {
+            width: 100%;
+            height: 30px;
+            background-color: black;
+            opacity: 0.5;
+            position: absolute;
+            bottom: 0;
+            color: white;
+            z-index: 10000;
+        }
+
+        #jiao {
+            display: none;
+        }
+
+        #left {
+            width: 35px;
+            height: 50px;
+            background-color: #555555;
+            opacity: 0.6;
+            z-index: 9999;
+            display: block;
+            position: absolute;
+            top: 50%;
+            left: 20px;
+            color: white;
+            font-size: 20px;
+            line-height: 50px;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        #right {
+            width: 35px;
+            height: 50px;
+            background-color: #555555;
+            opacity: 0.6;
+            z-index: 9999;
+            display: block;
+            position: absolute;
+            top: 50%;
+            right: 20px;
+            color: white;
+            font-size: 20px;
+            line-height: 50px;
+            text-align: center;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <!--导航部分-->
+    <header>
+        <ul>
+            <li>
+                <img src="../xiangmutu/456.png" alt="" />
+            </li>
+
+
+            <li>
+                <select class="bazhong" name="chengshi">
+                    <option value="CD">成都</option>
+                    <option value="BZ">巴中</option>
+
+                </select>
+            </li>
+            <li>
+                <a href="">首页</a>
+            </li>
+            <li>
+                <a href="dianying.html">电影</a>
+            </li>
+            <li>
+                <a href="bangdan.html">榜单</a>
+            </li>
+            <li>
+                <a href="zixun.html?5b5184050ca75751b090b823">热点</a>
+            </li>
+            <li>
+                <input type="text" placeholder=" 找影视剧、影人、影院" />
+                <img src="../xiangmutu/03.png" alt="" />
+            </li>
+            <li>
+                <a href="denglu.html">
+                    <img src="../xiangmutu/04.png" alt="" /> </a>
+                <span>
+                    <select name="city" id=""></select>
+                </span>
+            </li>
+
+        </ul>
+
+    </header>
+    <!-- 插入图片-->
+    <div class="zhengzhangtupian">
+        <div class="zhengzhang">
+            <!-- 轮播图片 -->
+            <div id="cont">
+
+                <div class="lii"></div>
+                <div class="btn" id="btn">
+                    <ul>
+                        <li class="on">1</li>
+                        <li>2</li>
+                        <li>3</li>
+                        <li>4</li>
+                        <div style="clear: both"></div>
+                    </ul>
+                </div>
+                <div class="imm" id="imm">
+                    <a href="../html/zixun.html?5b4eaec1d375892098a37544" target="_blank">
+                        <img src="../images/b1.jpg" alt="第一章">
+                    </a>
+                    <a href="../html/zixun.html?5b5184050ca75751b090b823" target="_blank">
+                        <img src="../images/b2.jpg" alt="第二章">
+                    </a>
+                    <a href="../html/zixun.html?5b517d900ca75751b090b822" target="_blank">
+                        <img src="../images/b3.jpg" alt="第三章">
+                    </a>
+                    <a href="../html/zixun.html?5b51857a0ca75751b090b824" target="_blank">
+                        <img src="../images/b4.jpg" alt="第四章">
+                    </a>
+                </div>
+                <div id="jiao">
+                    <a href="#" id="left">&lt;</a>
+                    <a href="#" id="right">&gt;</a>
+                </div>
+            </div>
+        </div>
+        <!--七张图片-->
+        <!-- <ol class="qizhangtupian">
+            <li>
+                <a href="zixun.html">
+                    <img src="../xiangmutu/shouye8.png" alt="" />
+                </a>
+            </li>
+            <li>
+                <a href="zixun.html">
+                    <img src="../xiangmutu/shouye1.png" alt="" />
+                </a>
+            </li>
+            <li>
+                <img src="../xiangmutu/shouye2.png" alt="" />
+            </li>
+            <li>
+                <img src="../xiangmutu/shouye3.png" alt="" />
+            </li>
+            <li>
+                <img src="../xiangmutu/shouye4.png" alt="" />
+            </li>
+            <li>
+                <img src="../xiangmutu/shouye5.png" alt="" />
+            </li>
+            <li>
+                <img src="../xiangmutu/shouye6.png" alt="" />
+            </li>
+            <li>
+                <img src="../xiangmutu/shouye7.png" alt="" />
+            </li>
+
+        </ol> -->
+    </div>
+    <!--内容第一段 左边内容 正在热映55部-->
+    <div class="zaireying1">
+        <div class="zaireying">
+            <div class="bu">
+                <p class="reying">正在热映（55部）
+                    <span>全部&gt</span>
+                </p>
+            </div>
+            <div>
+                <ol class="fuhuo">
+                </ol>
+
+                <ol class="fuhuo1">
+
+                </ol>
+
+            </div>
+        </div>
+
+        <div class="piaofang">
+  <div id="div_page1">
+<!-- 
+    <h1>今日票房</h1>
+
+    <p class="piaofang1">
+        <img src="../xiangmutu/20170409181721.png" alt="" />
+    </p>
+    <div class="piaofang2">
+        <span>机械师2：复活</span>
+        <p> 5203.28万</p>
+
+        <p>
+    </div>
+
+
+    </p> -->
+  </div>
+            <div id="div_page">
+
+<!-- 
+                <p class="jingtian">
+                    <i>2</i>惊天破
+                    <span>2023.35万</span>
+                </p>
+
+                <p class="jingtian3">
+                    <i>3</i>惊天破
+                    <span>2023.35万</span>
+                </p>
+
+                <p class="jingtian4">
+                    <i>4</i>惊天破
+                    <span>2023.35万</span>
+                </p>
+
+                <p class="jingtian5">
+                    <i>5</i>惊天破
+                    <span>2023.35万</span>
+                </p>
+
+                <p class="jingtian6">
+                    <i>6</i>惊天破
+                    <span>2023.35万</span>
+                </p>
+
+                <p class="jingtian7">
+                    <i>7</i>惊天破
+                    <span>2023.35万</span>
+                </p>
+
+                <p class="jingtian8">
+                    <i>8</i>惊天破
+                    <span>2023.35万</span>
+                </p>
+
+                <p class="jingtian9">
+                    <i>9</i>惊天破
+                    <span>2023.35万</span>
+                </p>
+
+                <p class="jingtian10">
+                    <i>10</i>惊天破
+                    <span>2023.35万</span>
+                </p> -->
+            </div>
+            <div class="jinri">
+                <div class="jinri1">
+                    <p>今</p>
+
+                    <p>日</p>
+
+                    <p>大</p>
+
+                    <p>盘</p>
+                </div>
+                <div class="chakan">
+                    <div class="chakan1">1.03亿
+                        <span>查看更多&gt</span>
+                    </div>
+                    <div class="chakan2">北京时间 22:46:26 &nbsp;&nbsp;&nbsp;猫眼专业版实时票房数据</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--内容的即将上映-->
+    <div class="jijiang">
+        <!--左边部分-->
+        <div class="jijiang1">
+            <div class="jijiang2">
+                <h2 class="jijiang3">即将上映（276部）
+                    <span>全部&gt</span>
+                </h2>
+            </div>
+            <div>
+                <ol class="dahuishi">
+                    <li class="dahuishi1">
+                        <img src="../xiangmutu/index_image/comingSoon_01.png" />
+                        <div class="bian">
+
+                            <p class="xiangkan">134人想看</p>
+
+                            <p class="yugao">
+                                <a href="">预告片</a>
+                                <span class="yushou">
+                                    <a href="">预售</a>
+                                </span>
+                            </p>
+                        </div>
+
+                        <p class="shangying">10月26日上映</p>
+
+                    </li>
+
+
+                    <li class="dahuishi2">
+                        <img src="../xiangmutu/index_image/comingSoon_02.png" />
+                        <div class="bian1">
+                            <p class="xiangkan1">43487人想看</p>
+
+                            <p class="yugao1">
+                                <a href="">预告片</a>
+                                <span class="yushou1">
+                                    <a href="">预售</a>
+                                </span>
+                            </p>
+                        </div>
+
+                        <p class="shangying1">10月26日上映</p>
+                    </li>
+
+
+
+
+
+                    <li class="dahuishi3">
+                        <img src="../xiangmutu/index_image/comingSoon_03.png" />
+
+                        <p class="xiangkan2">22469人想看</p>
+                        <div class="bian2">
+
+                            <p class="yugao2">
+                                <a href="">预告片</a>
+                                <span class="yushou2">
+                                    <a href="">预售</a>
+                                </span>
+                            </p>
+                        </div>
+                        <p class="shangying2">10月26日上映</p>
+                    </li>
+
+
+
+                    <li class="dahuishi4">
+                        <img src="../xiangmutu/index_image/comingSoon_04.png" />
+
+                        <p class="xiangkan3">17808人想看</p>
+                        <div class="bian3">
+
+                            <p class="yugao3">
+                                <a href="">预告片</a>
+                                <span class="yushou3">
+                                    <a href="">预售</a>
+                                </span>
+                            </p>
+                        </div>
+                        <p class="shangying3">10月26日上映</p>
+                    </li>
+
+                </ol>
+            </div>
+            <div>
+                <!--有张脸-->
+                <ol class="youlian">
+                    <li class="dahuishi4">
+                        <img src="../xiangmutu/index_image/comingSoon_05.png" />
+
+                        <p class="xiangkan3">8970人想看</p>
+                        <div class="bian3">
+
+                            <p class="yugao3">
+                                <a href="">预告片</a>
+                                <span class="yushou3">
+                                    <a href="">预售</a>
+                                </span>
+                            </p>
+                        </div>
+                        <p class="shangying3">10月26日上映</p>
+                    </li>
+                    <li class="dahuishi4">
+                        <img src="../xiangmutu/index_image/comingSoon_06.png" />
+
+                        <p class="xiangkan3">6025人想看</p>
+                        <div class="bian3">
+
+                            <p class="yugao3">
+                                <a href="">预告片</a>
+                                <span class="yushou3">
+                                    <a href="">预售</a>
+                                </span>
+                            </p>
+                        </div>
+                        <p class="shangying3">10月26日上映</p>
+                    </li>
+
+                    <li class="dahuishi4">
+                        <img src="../xiangmutu/index_image/comingSoon_07.png" />
+
+                        <p class="xiangkan3">2975人想看</p>
+                        <div class="bian3">
+
+                            <p class="yugao3">
+                                <a href="">预告片</a>
+                                <span class="yushou3">
+                                    <a href="">预售</a>
+                                </span>
+                            </p>
+                        </div>
+                        <p class="shangying3">10月26日上映</p>
+                    </li>
+
+                    <li class="dahuishi4">
+                        <img src="../xiangmutu/index_image/comingSoon_08.png" />
+
+                        <p class="xiangkan3">943人想看</p>
+                        <div class="bian3">
+
+                            <p class="yugao3">
+                                <a href="">预告片</a>
+                                <span class="yushou3">
+                                    <a href="">预售</a>
+                                </span>
+                            </p>
+                        </div>
+                        <p class="shangying3">10月26日上映</p>
+                    </li>
+
+
+                </ol>
+            </div>
+        </div>
+        <!--最受期待部分-->
+        <div class="qidai">
+            <div class="zuishou">
+                <h3>最受期待
+                    <span>查看完整榜单&gt</span>
+                </h3>
+            </div>
+            <div class="san">
+                <div class="san2">
+                    <img src="../xiangmutu/shouye10.png" alt="" />
+                </div>
+                <div class="san1">
+                    <p>三生三世十里桃花</p>
+
+                    <p>上映时间 ： 2016</p>
+
+                    <p>212184人想看</p>
+                </div>
+            </div>
+            <div>
+                <div class="boshi">
+                    <img src="../xiangmutu/shouye11.png" alt="" />
+                    <div class="qiyi">
+
+                        <p>奇异博士</p>
+
+                        <p>152788人想看</p>
+                    </div>
+                </div>
+                <div class="ganwen">
+                    <img src="../xiangmutu/shouye12.png">
+                    <div class="qiyi1">
+
+                        <p>敢问路在何方</p>
+
+                        <p>169921人想看</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mingzi">
+                <p>
+                    <i>4</i>你的名字。
+                    <span>53713人想看</span>
+                </p>
+                <p>
+                    <i>5</i>你的名字。
+                    <span>104557人想看</span>
+                </p>
+                <p>
+                    <i>6</i>你的名字。
+                    <span>110883人想看</span>
+                </p>
+                <p>
+                    <i>7</i>你的名字。
+                    <span>70962人想看</span>
+                </p>
+                <p>
+                    <i>8</i>你的名字。
+                    <span>36719人想看</span>
+                </p>
+                <p>
+                    <i>9</i>你的名字。
+                    <span>43487人想看</span>
+                </p>
+                <p>
+                    <i>10</i>你的名字。
+                    <span>69047人想看</span>
+                </p>
+            </div>
+        </div>
+        <!--热播电影部分-->
+        <div class="rebo">
+            <div class="dianying">
+                <div class="aiqing">
+                    <div class="rebodianying">热播电影</div>
+                    <div class="xiju">
+                        <a href="">爱情</a>
+                        <a href="">喜剧</a>
+                        <a href="">动作</a>
+                        <a href="">恐怖</a>
+                        <a href="">动画</a>
+
+                    </div>
+                    <span class="quanbu">全部&gt</span>
+
+                </div>
+                <div class="rebo2">
+                    <ol class="rebo1">
+                        <li>
+                            <img src="../xiangmutu/index_image/shouye14.png" alt="" />
+                        </li>
+                        <li>
+                            <img src="../xiangmutu/index_image/hotPlay_02.png" alt="" />
+                        </li>
+                        <li>
+                            <img src="../xiangmutu/index_image/hotPlay_03.png" alt="" />
+                        </li>
+                        <li>
+                            <img src="../xiangmutu/index_image/hotPlay_04.png" alt="" />
+                        </li>
+                        <li>
+                            <img src="../xiangmutu/index_image/hotPlay_05.png" alt="" />
+                        </li>
+                        <li>
+                            <img src="../xiangmutu/index_image/hotPlay_06.png" alt="" />
+                        </li>
+                        <li>
+                            <img src="../xiangmutu/index_image/hotPlay_07.png" alt="" />
+                        </li>
+                    </ol>
+                </div>
+
+            </div>
+            <div>
+                <div class="rebo3">
+                    <h5>TOP 100
+                        <span>查看完整榜单&gt</span>
+                    </h5>
+                </div>
+
+                <div class="piaofang">
+                    <p class="piaofang11">
+                        <img src="../xiangmutu/index_image/shouye13.png" alt="" />
+                    </p>
+                    <div class="piaofang22">
+                        <span>霸王别姬</span>
+                        <p> 9.6分</p>
+
+                        <p>
+                    </div>
+
+
+                    </p>
+
+                    <p class="jingtian08">
+                        <i>2</i>这个杀手不冷
+                        <span>9.6分</span>
+                    </p>
+
+                    <p class="jingtian33">
+                        <i>3</i>这个杀手不冷
+                        <span>9.6分</span>
+                    </p>
+
+                    <p class="jingtian44">
+                        <i>4</i>这个杀手不冷
+                        <span>9.6分</span>
+                    </p>
+
+                    <p class="jingtian55">
+                        <i>5</i>这个杀手不冷
+                        <span>9.6分</span>
+                    </p>
+
+                    <p class="jingtian66">
+                        <i>6</i>这个杀手不冷
+                        <span>9.6分</span>
+                    </p>
+
+                    <p class="jingtian77">
+                        <i>7</i>这个杀手不冷
+                        <span>9.6分</span>
+                    </p>
+
+                    <p class="jingtian88">
+                        <i>8</i>这个杀手不冷
+                        <span>9.6分</span>
+                    </p>
+
+                    <p class="jingtian99">
+                        <i>9</i>这个杀手不冷
+                        <span>9.6分</span>
+                    </p>
+
+                    <p class="jingtian100">
+                        <i>10</i>这个杀手不冷
+                        <span>9.6分</span>
+                    </p>
+
+                </div>
+
+
+            </div>
+        </div>
+
+
+    </div>
+    <!--底部-->
+    <footer>
+        <p>&copy;2016 猫眼电影 maoyan.com 京ICP证160733号 京ICP备16022489号-1 京公网安备 11010502030881 号 网络文化经营许可证 电子公告服务规则</p>
+
+        <p>北京猫眼文化传媒有限公司</p>
+    </footer>
+    <aside>
+        <a href="#">
+            <img src="../xiangmutu/index_image/shouye15.png" alt="" />
+        </a>
+    </aside>
+    <script src="../javascripts/jquery-1.12.4.min.js"></script>
+    <script src="../javascripts/index.js"></script>
+</body>
+
+</html>

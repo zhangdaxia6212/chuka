@@ -1,0 +1,392 @@
+/*导航部分*/
+header{
+    height: 80px;
+    border: 1px solid  #e5e5e5;
+    overflow: hidden;
+}
+ul{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+ul>li{
+    line-height: 80px;
+    color: #343434;
+
+}
+
+.bazhong{
+    border:0;
+    outline: none ;
+}
+ul>li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #343434;
+    width: 80px;
+    text-align: center;
+}
+ul>li:first-child{
+    margin-left: 300px;
+    margin-right: 20px;
+}
+ul>li:nth-child(7){
+    margin-left: 300px;
+}
+ul>li:nth-child(3):active{
+    background-color: red;
+}
+ul>li:nth-child(4):active{
+    background-color: red;
+}
+ul>li:nth-child(5):active{
+    background-color: red;
+}
+ul>li:nth-child(6):active{
+    background-color: red;
+}
+ul>li:nth-child(7) input{
+    border-radius:20px 20px;
+    height: 40px;
+    width: 228px;
+    margin-right: 20px;
+    outline: none;
+}
+ul>li:nth-child(7) img{
+    position: absolute;
+    top: 23px;
+    right: 160px;
+}
+.reying{
+    height: 60px;
+    background-color: #48474b;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.reying a{
+    display: inline-block;
+    color: grey;
+    text-decoration: none;
+    width: 80px;
+    line-height: 60px;
+    padding-right: 80px;
+}
+.reying a:active{
+    color: red;
+}
+/*整块内容部分*/
+article{
+    width: 950px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+/*左边内容部分*/
+section{
+    width: 735px;
+    float: left;
+}
+/*右边内部部分*/
+aside{
+    width: 110px;
+    float: right;
+}
+h1{
+    font-size: 20px;
+    border-left: 5px solid red;
+    margin-bottom: 25px;
+
+}
+.jue{
+    text-align: center;
+    margin-top: 13px;
+    margin-bottom: 13px;
+
+}
+.jue1{
+    text-align: center;
+    color: #ffb458;
+}
+/*左边内容部分*/
+h2{
+   font-size: 40px;
+    margin-bottom: 30px;
+}
+.maoyan{
+    margin-bottom: 50px;
+}
+.maoyan span{
+    color: grey;
+}
+.two{
+    margin-bottom: 35px;
+}
+.two1{
+    margin-bottom: 35px;
+}
+h3{
+    font-size: 35px;
+    color: red;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.two2{
+    color: #020202;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+.two3{
+    margin-bottom: 40px;
+}
+.two4{
+    margin-bottom: 35px;
+}
+.two5 {
+    text-align: center;
+    margin-bottom: 30px;
+    height: 260px;
+    width: 735px;
+    background-color: #313131;
+}
+.two6{
+    margin-bottom: 40px;
+}
+.two6 span{
+    color: red;
+    font-weight: 800;
+}
+.two7{
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+.two8{
+    margin-bottom: 40px;
+}
+.two9{
+    margin-bottom: 40px;
+}
+.two10{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.two11{
+    text-align: center;
+    margin-bottom: 40px;}
+.two12{
+    margin-bottom: 40px;
+}
+.two12 span{
+    color: red;
+    font-weight: 800;
+}
+.two13{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.two14{
+    margin-bottom: 40px;
+}
+.two14 span{
+    color: red;
+    font-weight: 800;
+}
+.two15{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.two16{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.two17{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.two18{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.two20{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.two21 span{
+    color: red;
+    font-weight: 800;
+}
+.two22{
+    display: flex;
+    margin-bottom: 40px;
+
+}
+.two23 span{
+    color: red;
+    font-weight: 800;
+}
+.two23{
+    margin-bottom: 40px;
+}
+.two24{
+    margin-bottom: 65px;
+}
+.two25{
+    display: inline-block;
+    height: 40px;
+    width: 80px;
+    border: 1px solid red;
+    line-height: 40px;
+    border-radius: 30px;
+    text-align: center;
+   margin-right: 5px;
+}
+
+.two26{
+    display: inline-block;
+    height: 40px;
+    width: 80px;
+    border: 1px solid red;
+    line-height: 40px;
+    border-radius: 30px;
+    text-align: center;
+}
+.two27{
+    text-align: center;
+    margin-bottom: 45px;
+}
+/*热门评论内容*/
+h5{
+    border-left: 3px solid red;
+    margin-bottom: 40px;
+}
+.one{
+    overflow: hidden;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 40px;
+}
+.one1{
+    float: left;
+    margin-right: 10px;
+    margin-top: 20px;
+
+}
+.one2{
+    float: left;
+
+}
+.one3{
+    float: right;
+    color: grey;
+}
+.one2>p:nth-child(1){
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+.one2>p:nth-child(2){
+    margin-bottom: 30px;
+    color: grey
+}
+.one2>p:nth-child(3){
+    font-size: 14px;
+
+}
+/*最新评论*/
+h6{
+    border-left: 3px solid red;
+    margin-bottom: 40px;
+    margin-top: 60px;
+}
+.one00{
+    overflow: hidden;
+
+}
+.one11{
+    float: left;
+    margin-right: 10px;
+    margin-top: 20px;
+
+}
+.one22{
+    float: left;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 40px;
+
+}
+.one33{
+    float: right;
+    color: grey;
+}
+.one22>p:nth-child(1){
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+.one22>p:nth-child(2){
+    margin-bottom: 30px;
+    color: grey
+}
+.one22>p:nth-child(3){
+    font-size: 14px;
+
+}
+.shenqi{
+    width: 600px;
+    height: 100px;
+    background-color: #e5e5e5;
+    margin-top: 20px;
+
+}
+.shenqi>p:nth-child(1){
+
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+.shenqi>p:nth-child(2){
+    padding-left: 10px;
+}
+.gengduo{
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 150px;
+}
+.gengduo a{
+    text-decoration: none;
+    color: red;
+}
+
+/*底部*/
+footer{
+    height: 150px;
+    width: auto;
+    background-color: #020202;
+}
+footer>p:nth-child(1){
+    color: grey;
+    text-align: center;
+    padding-top: 60px;
+}
+footer>p:nth-child(2){
+    color: grey;
+    text-align: center;
+}
+/*动画猫*/
+nav{
+    position:fixed;
+    right: -50px;
+    bottom: 180px;
+    transition: 1s;
+}
+nav:hover{
+    right: 0px;
+}
+
+.text_a1  img div{
+    margin-bottom: 30px;
+}
+.txt_id{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}

@@ -1,0 +1,591 @@
+/*导航部分*/
+header{
+    height: 80px;
+    border: 1px solid  #e5e5e5;
+
+    overflow: hidden;
+
+
+}
+ul{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+
+}
+ul>li{
+    line-height: 80px;
+    color: #343434;
+
+}
+
+.bazhong{
+    border:0;
+    outline: none ;
+}
+ul>li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #343434;
+    width: 80px;
+    text-align: center;
+}
+ul>li:first-child{
+    margin-left: 300px;
+    margin-right: 20px;
+}
+ul>li:nth-child(7){
+    margin-left: 300px;
+}
+ul>li:nth-child(3):active{
+    background-color: red;
+}
+ul>li:nth-child(4):active{
+    background-color: red;
+}
+ul>li:nth-child(5):active{
+    background-color: red;
+}
+ul>li:nth-child(6):active{
+    background-color: red;
+}
+ul>li:nth-child(7) input{
+    border-radius:20px 20px;
+    height: 40px;
+    width: 228px;
+    margin-right: 20px;
+    outline: none;
+}
+ul>li:nth-child(7) img{
+    position: absolute;
+    top: 23px;
+    right: 160px;
+}
+.reying{
+    height: 60px;
+    background-color: #48474b;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.reying a{
+    display: inline-block;
+    color: grey;
+    text-decoration: none;
+    width: 80px;
+    line-height: 60px;
+    padding-right: 80px;
+}
+.reying a:active{
+    color: red;
+}
+/*两段字体*/
+aside{
+    margin-bottom: 40px;
+}
+aside p{
+    text-align: center;
+    color: grey;
+    font-size: 14px;
+}
+aside p:nth-child(1){
+    margin-bottom: 10px;
+}
+aside span{
+    color: #ffb402;
+}
+/*共十个 电影排行*/
+section{
+    width: 950px;
+    margin: 0px auto;
+    overflow: hidden;
+}
+/*第一个电影排行*/
+.huang{
+    float: left;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    text-align: center;
+    line-height: 50px;
+     margin-top: 65px;
+    margin-right: 30px;
+}
+
+.huang1{
+    float: left;
+}
+.diyige1{
+    display: flex;
+    height: 222px;
+    width: 870px;
+    margin-bottom: 30px;
+
+}
+.zhuyan{
+    flex-grow: 1;
+    margin-top: 65px;
+    margin-left: 30px;
+}
+.zhuyan>p:nth-child(1){
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.zhuyan>p:nth-child(3){
+    padding-top: 10px;
+    font-size: 14px;
+    color: grey;
+    border-bottom:  1px solid #e5e5e5;
+    padding-bottom: 50px;
+}
+.zhuyan1{
+    margin-top: 65px;
+}
+.zhuyan1 i{
+    color: #ffb402;
+}
+.zhuyan1 span{
+    font-size: 45px;
+}
+/* 第二个电影 */
+ .huang{
+    float: left;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    text-align: center;
+    line-height: 50px;
+     margin-top: 65px;
+    margin-right: 30px;
+}
+
+.huang1{
+    float: left;
+}
+.diyige2{
+    display: flex;
+    height: 222px;
+    width: 870px;
+    margin-bottom: 30px;
+
+}
+.zhuyan{
+    flex-grow: 1;
+    margin-top: 65px;
+    margin-left: 30px;
+}
+.zhuyan>p:nth-child(1){
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.zhuyan>p:nth-child(3){
+    padding-top: 10px;
+    font-size: 14px;
+    color: grey;
+    border-bottom:  1px solid #e5e5e5;
+    padding-bottom: 50px;
+}
+.zhuyan1{
+    margin-top: 65px;
+}
+.zhuyan1 i{
+    color: #ffb402;
+}
+.zhuyan1 span{
+    font-size: 45px;
+} 
+/*第三个电影*/
+.huang11{
+    float: left;
+    width: 50px;
+    height: 50px;
+    background-color: #ffb402;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 65px;
+    margin-right: 30px;
+}
+.huang11 i{
+    color: white;
+}
+.diyige3{
+    display: flex;
+    height: 222px;
+    width: 870px;
+    margin-bottom: 30px;
+
+}
+.zhuyan{
+    flex-grow: 1;
+    margin-top: 65px;
+    margin-left: 30px;
+}
+.zhuyan>p:nth-child(1){
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.zhuyan>p:nth-child(3){
+    padding-top: 10px;
+    font-size: 14px;
+    color: grey;
+    border-bottom:  1px solid #e5e5e5;
+    padding-bottom: 50px;
+}
+.zhuyan1{
+    margin-top: 65px;
+}
+.zhuyan1 i{
+    color: #ffb402;
+}
+.zhuyan1 span{
+    font-size: 45px;
+}
+/*第四个电影*/
+.huang110 i{
+    color: grey;
+}
+.huang110{
+    float: left;
+    width: 50px;
+    height: 50px;
+    background-color: #e5e5e5;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 65px;
+    margin-right: 30px;
+
+}
+.diyige4{
+    display: flex;
+    height: 222px;
+    width: 870px;
+    margin-bottom: 30px;
+
+}
+.zhuyan{
+    flex-grow: 1;
+    margin-top: 65px;
+    margin-left: 30px;
+}
+.zhuyan>p:nth-child(1){
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.zhuyan>p:nth-child(3){
+    padding-top: 10px;
+    font-size: 14px;
+    color: grey;
+    border-bottom:  1px solid #e5e5e5;
+    padding-bottom: 50px;
+}
+.zhuyan1{
+    margin-top: 65px;
+}
+.zhuyan1 i{
+    color: #ffb402;
+}
+.zhuyan1 span{
+    font-size: 45px;
+}
+
+/*第五个电影排行*/
+.huang{
+    float: left;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    text-align: center;
+    line-height: 50px;
+     margin-top: 65px;
+    margin-right: 30px;
+}
+
+.huang1{
+    float: left;
+}
+.diyige5{
+    display: flex;
+    height: 222px;
+    width: 870px;
+    margin-bottom: 30px;
+
+}
+.zhuyan{
+    flex-grow: 1;
+    margin-top: 65px;
+    margin-left: 30px;
+}
+.zhuyan>p:nth-child(1){
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.zhuyan>p:nth-child(3){
+    padding-top: 10px;
+    font-size: 14px;
+    color: grey;
+    border-bottom:  1px solid #e5e5e5;
+    padding-bottom: 50px;
+}
+.zhuyan1{
+    margin-top: 65px;
+}
+.zhuyan1 i{
+    color: #ffb402;
+}
+.zhuyan1 span{
+    font-size: 45px;
+}
+/*第六个电影排行*/
+.huang{
+    float: left;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    text-align: center;
+    line-height: 50px;
+     margin-top: 65px;
+    margin-right: 30px;
+}
+
+.huang1{
+    float: left;
+}
+.diyige6{
+    display: flex;
+    height: 222px;
+    width: 870px;
+    margin-bottom: 30px;
+
+}
+.zhuyan{
+    flex-grow: 1;
+    margin-top: 65px;
+    margin-left: 30px;
+}
+.zhuyan>p:nth-child(1){
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.zhuyan>p:nth-child(3){
+    padding-top: 10px;
+    font-size: 14px;
+    color: grey;
+    border-bottom:  1px solid #e5e5e5;
+    padding-bottom: 50px;
+}
+.zhuyan1{
+    margin-top: 65px;
+    color: #ffb402;
+    font-size: 45px;
+}
+
+/*第七个电影排行*/
+.huang{
+    float: left;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    text-align: center;
+    line-height: 50px;
+     margin-top: 65px;
+    margin-right: 30px;
+}
+
+.huang1{
+    float: left;
+}
+.diyige7{
+    display: flex;
+    height: 222px;
+    width: 870px;
+    margin-bottom: 30px;
+
+}
+.zhuyan{
+    flex-grow: 1;
+    margin-top: 65px;
+    margin-left: 30px;
+}
+.zhuyan>p:nth-child(1){
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.zhuyan>p:nth-child(3){
+    padding-top: 10px;
+    font-size: 14px;
+    color: grey;
+    border-bottom:  1px solid #e5e5e5;
+    padding-bottom: 50px;
+}
+.zhuyan1{
+    margin-top: 65px;
+    color: #ffb402;
+    font-size: 45px;
+}
+
+/*第八个电影排行*/
+.huang{
+    float: left;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    text-align: center;
+    line-height: 50px;
+     margin-top: 65px;
+    margin-right: 30px;
+}
+
+.huang1{
+    float: left;
+}
+.diyige8{
+    display: flex;
+    height: 222px;
+    width: 870px;
+    margin-bottom: 30px;
+
+}
+.zhuyan{
+    flex-grow: 1;
+    margin-top: 65px;
+    margin-left: 30px;
+}
+.zhuyan>p:nth-child(1){
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.zhuyan>p:nth-child(3){
+    padding-top: 10px;
+    font-size: 14px;
+    color: grey;
+    border-bottom:  1px solid #e5e5e5;
+    padding-bottom: 50px;
+}
+.zhuyan1{
+    margin-top: 65px;
+    color: #ffb402;
+    font-size: 45px;
+}
+
+/*第九个电影排行*/
+.huang{
+    float: left;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    text-align: center;
+    line-height: 50px;
+     margin-top: 65px;
+    margin-right: 30px;
+}
+
+.huang1{
+    float: left;
+}
+.diyige9{
+    display: flex;
+    height: 222px;
+    width: 870px;
+    margin-bottom: 30px;
+
+}
+.zhuyan{
+    flex-grow: 1;
+    margin-top: 65px;
+    margin-left: 30px;
+}
+.zhuyan>p:nth-child(1){
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.zhuyan>p:nth-child(3){
+    padding-top: 10px;
+    font-size: 14px;
+    color: grey;
+    border-bottom:  1px solid #e5e5e5;
+    padding-bottom: 50px;
+}
+.zhuyan1{
+    margin-top: 65px;
+    color: #ffb402;
+    font-size: 45px;
+    
+}
+
+
+/*第十个电影排行*/
+.huang{
+    float: left;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    text-align: center;
+    line-height: 50px;
+     margin-top: 65px;
+    margin-right: 30px;
+}
+
+.huang1{
+    float: left;
+}
+.diyige10{
+    display: flex;
+    height: 222px;
+    width: 870px;
+    margin-bottom: 30px;
+
+}
+.zhuyan{
+    flex-grow: 1;
+    margin-top: 65px;
+    margin-left: 30px;
+}
+.zhuyan>p:nth-child(1){
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.zhuyan>p:nth-child(3){
+    padding-top: 10px;
+    font-size: 14px;
+    color: grey;
+    border-bottom:  1px solid #e5e5e5;
+    padding-bottom: 50px;
+}
+.zhuyan1{
+    margin-top: 65px;
+    color: #ffb402;
+    font-size: 45px;
+} 
+
+/*底部*/
+footer{
+    height: 150px;
+    width: auto;
+    background-color: #020202;
+    margin-top: 80px;
+}
+footer>p:nth-child(1){
+    color: grey;
+    text-align: center;
+    padding-top: 60px;
+}
+footer>p:nth-child(2){
+    color: grey;
+    text-align: center;
+}
+
+.diyige1 img{
+    width: 160px;
+    height: 220px;
+}
+/* 红色 */
+#red{
+    float: left;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    text-align: center;
+    line-height: 50px;
+     margin-top: 65px;
+    margin-right: 30px;
+}

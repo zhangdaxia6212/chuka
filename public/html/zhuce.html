@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/zhuce.css" />
+    <title>猫眼电影注册</title>
+    <style>
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="./index.html">
+            <img src="../xiangmutu/normal_01.png" alt="" />
+        </a>
+    </header>
+    <div>
+        <form id="form_ok" action="/reg/reg" method="post">
+
+            <table>
+                <tr>
+                    <td>手机号</td>
+                    <td class="haha">
+                        <input id="phone_id" name="phone" type="text" required/> 
+                        <i id="phone_i">注册成功后，全美团通用</i>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <button id="addBut">免费获取短信动态码</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>短信动态码</td>
+                    <td>
+                        <input id="dynamic_code" type="text" required />
+                        <i id="taima"></i>
+                        <i id="code_id"></i>
+                    </td>
+                </tr>
+               
+                <tr>
+                    <td>创建密码</td>
+                    <td>
+                        <input name="pwd" id="pwd" type="password"  required/>
+                        <i id="pwd_i"></i>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td class="hehe">
+                        <span id="span">弱</span>
+                        <span id="span_span">中</span>
+                        <span id="span_pan">强</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>确认密码</td>
+                    <td>
+                        <input id="password" type="password" required />
+                        <i id="password_i"></i>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <button class="anniu">同意以下协议并注册</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>《美团网用户协议》</td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <footer>
+        <p>meituan.com 京ICP证070791号 京公网安备1102165201654号</p>
+    </footer>
+    <script src="../javascripts/jquery-1.12.4.min.js"></script>
+    <script src="..//javascripts/zhuce.js"></script>
+</body>
+
+</html>
